@@ -21,12 +21,6 @@ quasar build
 ### Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 
-### quasar
-```
-$ yarn global add @quasar/cli
-# or
-$ npm install -g @quasar/cli
-```
 
 ### 프로젝트 실행방법
 ```
@@ -34,7 +28,7 @@ $ npm install -g @quasar/cli
 npm install
 
 2.퀘이샤 설치
-npm install -g @quasar/cli
+npm install -g @quasar/cli@1.0.0
 
 3.프로젝트 실행
 quasar dev
