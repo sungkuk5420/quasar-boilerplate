@@ -27,3 +27,15 @@ $ yarn global add @quasar/cli
 # or
 $ npm install -g @quasar/cli
 ```
+
+### 프로젝트 실행방법
+```
+1.모듈들 설치
+npm install
+
+2.퀘이샤 설치
+npm install -g @quasar/cli
+
+3.프로젝트 실행
+quasar dev
+```
