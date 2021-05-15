@@ -5,7 +5,12 @@
 </template>
 
 <script>
+import ComputedMixin from "../ComputedMixin";
+import UtilMethodMixin from "../UtilMethodMixin";
 export default {
-  name: "PageIndex",
+  mixins: [ComputedMixin, UtilMethodMixin],
+  mounted() {
+    // this.showLoading();
+  },
 };
 </script>
