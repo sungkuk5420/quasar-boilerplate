@@ -1,6 +1,11 @@
 # Quasar App (quasar-boilerplate)
 
 A Quasar Framework app
+## instal quasar cli 
+```
+npm install -g @quasar/cli
+window path 설정하기`
+```
 
 ## Install the dependencies
 ```bash
@@ -23,9 +28,7 @@ See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 
 ### quasar
 ```
-$ yarn global add @quasar/cli
-# or
-$ npm install -g @quasar/cli
+$ npm install -g @quasar/cli@1.1.3
 ```
 
 ### 프로젝트 실행방법
@@ -34,8 +37,8 @@ $ npm install -g @quasar/cli
 npm install
 
 2.퀘이샤 설치
-npm install -g @quasar/cli
+npm install -g @quasar/cli@1.1.3
 
 3.프로젝트 실행
-quasar dev
+quasar serve
 ```
