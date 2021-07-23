@@ -42,3 +42,28 @@ npm install -g @quasar/cli@1.1.3
 3.프로젝트 실행
 quasar serve
 ```
+
+
+### 프로젝트 나누면서 느낀점
+```
+quasar.variables 파일 내의 테마 색상을 변경하는것을 기본 원칙으로한다.
+레이아웃
+페이지
+프로젝트
+컴포넌트
+로 파일을 나눈다.
+
+아이콘은 메테리얼 아이콘
+https://fonts.google.com/icons?selected=Material+Icons
+
+마진 패딩에 대한 유틸리티는 아래에 있다.
+https://quasar.dev/style/spacing#other-related
+
+색상은 bg-primary, text-primary등으로 분기해서 처리한다. 
+마진은  q-m-a-xs
+q (Prefix) 
+p m (Type) 
+t r b l a x(left&right) y(top&bottom) (Direction) 
+none xs sm md lg xl (size)
+
+```
