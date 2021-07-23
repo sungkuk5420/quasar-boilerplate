@@ -14,3 +14,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.page-name{
+  
+}
+</style>
