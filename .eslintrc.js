@@ -43,6 +43,7 @@ module.exports = {
   ],
 
   globals: {
+    $q: 'readonly', // quasar
     ga: 'readonly', // Google Analytics
     cordova: 'readonly',
     __statics: 'readonly',
